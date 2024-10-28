@@ -356,6 +356,11 @@ caption {
   height: 66px;
   border-bottom: 1px solid #c6c6c6;
 }
+@media (min-width: 600px) {
+  #header {
+    height: 80px;
+  }
+}
 #header.active {
   content: "";
   background-color: rgba(0, 0, 0, 0.4);
@@ -368,7 +373,12 @@ caption {
   justify-content: space-between;
   align-items: center;
   padding: 0 15px;
-  height: 66px;
+  height: 100%;
+}
+@media (min-width: 600px) {
+  #header {
+    padding: 0 20px;
+  }
 }
 #header .logo a {
   display: block;
@@ -378,6 +388,12 @@ caption {
   background: url("/project1-clio/resources/images/pattern/head_logo.png");
   background-size: contain;
   background-repeat: no-repeat;
+}
+@media (min-width: 600px) {
+  #header .logo a {
+    width: 271px;
+    height: 24px;
+  }
 }
 #header .logo span {
   position: absolute !important;
@@ -402,11 +418,22 @@ caption {
   font-size: 1.5em;
   font-weight: 500;
 }
+@media (min-width: 600px) {
+  #header .util {
+    gap: 23px;
+    font-size: 1.6rem;
+  }
+}
 #header .util-etc {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
+}
+@media (min-width: 600px) {
+  #header .util-etc {
+    gap: 26px;
+  }
 }
 #header .util-etc div {
   position: relative;
@@ -419,6 +446,11 @@ caption {
   height: 100%;
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
+@media (min-width: 600px) {
+  #header .util-etc div::before {
+    left: -13px;
+  }
+}
 #header .util-etc .search {
   transform: scale(-1, 1);
 }
@@ -428,11 +460,95 @@ caption {
   font-weight: 900;
   font-size: 1.5rem;
 }
+@media (min-width: 600px) {
+  #header .util-etc .search::after {
+    font-size: 1.8rem;
+  }
+}
 #header .util .hamburger::before {
   content: "\f0c9";
   font-size: 1.5rem;
   font-weight: 900;
   font-family: "Line Awesome Free";
+}
+@media (min-width: 600px) {
+  #header .util .hamburger::before {
+    font-size: 3.5rem;
+  }
+}
+#header .search-tab {
+  display: none;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 231px;
+  background-color: #000b17;
+}
+@media (min-width: 600px) {
+  #header .search-tab {
+    height: 274px;
+  }
+}
+#header .search-tab .inner {
+  position: relative;
+  width: 349px;
+  height: 154px;
+  bottom: 50px;
+  color: #fff;
+  align-items: flex-end;
+}
+@media (min-width: 600px) {
+  #header .search-tab .inner {
+    width: 728px;
+    height: 194px;
+  }
+}
+#header .search-tab .inner .content {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+#header .search-tab .inner .content #search {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 2px #fff solid;
+  font-size: 2.7rem;
+  font-weight: 700;
+  color: #fff;
+}
+@media (min-width: 600px) {
+  #header .search-tab .inner .content #search {
+    font-size: 3rem;
+  }
+}
+#header .search-tab .inner .content .descripte {
+  opacity: 0.6;
+  margin-top: 9px;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+@media (min-width: 600px) {
+  #header .search-tab .inner .content .descripte {
+    font-size: 1.8rem;
+  }
+}
+#header .search-tab .inner .close::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "\f00d";
+  font-family: "Line Awesome Free";
+  font-size: 3.5rem;
+  font-weight: 900;
+  opacity: 0.4;
+}
+#header .search-tab.active {
+  display: flex;
 }
 
 #nav-all {
@@ -448,11 +564,21 @@ caption {
           backdrop-filter: blur(90px);
   color: #fff;
 }
+@media (min-width: 600px) {
+  #nav-all {
+    top: 80px;
+  }
+}
 #nav-all > ul > li {
   display: flex;
   justify-content: space-between;
   width: 100%;
   height: 80px;
+}
+@media (min-width: 600px) {
+  #nav-all > ul > li {
+    height: 90px;
+  }
 }
 #nav-all > ul > li .gnb__depth1__title {
   position: relative;
@@ -462,11 +588,23 @@ caption {
   width: 140px;
   height: 80px;
 }
+@media (min-width: 600px) {
+  #nav-all > ul > li .gnb__depth1__title {
+    width: 268px;
+    height: 90px;
+  }
+}
 #nav-all > ul > li .gnb__depth1__title > a {
   display: block;
   padding: 15px;
   font-size: 1.8rem;
   font-weight: 500;
+}
+@media (min-width: 600px) {
+  #nav-all > ul > li .gnb__depth1__title > a {
+    font-size: 2.7rem;
+    padding: 44px;
+  }
 }
 #nav-all > ul > li .gnb__depth1__title.active {
   background-color: #FFA32C;
@@ -492,6 +630,12 @@ caption {
   font-weight: 500;
   height: 79px;
 }
+@media (min-width: 600px) {
+  #nav-all > ul > li > ul > li {
+    font-size: 2.1rem;
+    height: 89px;
+  }
+}
 #nav-all > ul > li > ul > li::after {
   content: "";
   position: absolute;
@@ -510,6 +654,11 @@ caption {
 .swiper {
   width: 100%;
   height: 865px;
+}
+@media (min-width: 600px) {
+  .swiper {
+    height: 925px;
+  }
 }
 
 .swiper-slide {
@@ -531,9 +680,19 @@ caption {
   position: absolute;
   padding: 0px 15px;
 }
+@media (min-width: 600px) {
+  .txt {
+    padding: 0 30px;
+  }
+}
 .txt .title {
   font-size: 30px;
   font-weight: 700;
+}
+@media (min-width: 600px) {
+  .txt .title {
+    font-size: 6rem;
+  }
 }
 .txt .title2::after {
   position: absolute;
@@ -545,7 +704,7 @@ caption {
   background-color: #fff;
 }
 .txt .subtitle {
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 500;
   opacity: 0.4;
 }
@@ -561,6 +720,13 @@ caption {
   left: 50%;
   transform: translate(-50%, 50%);
   z-index: 10;
+}
+@media (min-width: 600px) {
+  .pagination {
+    width: 162px;
+    height: 29px;
+    bottom: 106px;
+  }
 }
 .pagination .swiper-button-next, .pagination .swiper-button-prev {
   color: #fff;
@@ -591,6 +757,11 @@ caption {
   font-weight: 500;
   writing-mode: vertical-rl;
 }
+@media (min-width: 600px) {
+  .scroll {
+    bottom: 125px;
+  }
+}
 .scroll::before {
   position: relative;
   content: "";
@@ -619,13 +790,25 @@ caption {
   top: -30px;
   width: 100%;
   color: #fff;
-  padding: 40px 15px;
+  padding: 40px 0;
   border-radius: 30px;
+}
+@media (min-width: 600px) {
+  #card1, #card2, #card3 {
+    padding: 90px 30px;
+    border-radius: 60px;
+    top: -60px;
+  }
 }
 
 #card1 {
   background-color: #003675;
   z-index: 1;
+}
+
+.epo {
+  padding: 0 15px;
+  position: relative;
 }
 
 .content {
@@ -638,9 +821,19 @@ caption {
   font-weight: 500;
   opacity: 0.5;
 }
+@media (min-width: 600px) {
+  .content .years {
+    height: 44px;
+  }
+}
 .content .sub-title {
   font-size: 3rem;
   font-weight: 600;
+}
+@media (min-width: 600px) {
+  .content .sub-title {
+    font-size: 2.7rem;
+  }
 }
 .content .title {
   font-size: 3.5rem;
@@ -648,14 +841,21 @@ caption {
   letter-spacing: -0.015em;
   line-height: 150%;
 }
+@media (min-width: 600px) {
+  .content .title {
+    font-size: 5rem;
+  }
+}
 .content .descripte {
   font-size: 1.7rem;
   font-weight: 600;
   opacity: 0.5;
 }
-
-.epo {
-  position: relative;
+@media (min-width: 600px) {
+  .content .descripte {
+    margin-top: 2px;
+    font-size: 1.8rem;
+  }
 }
 
 .epo-card {
@@ -667,10 +867,21 @@ caption {
   height: auto;
   margin-top: 86px;
 }
+@media (min-width: 600px) {
+  .epo-card {
+    flex-direction: row;
+    margin-top: 50px;
+  }
+}
 .epo-card .epo-card-item {
   position: relative;
   width: 100%;
   height: 150px;
+}
+@media (min-width: 600px) {
+  .epo-card .epo-card-item {
+    height: 235.47px;
+  }
 }
 .epo-card .txt {
   text-align: center;
@@ -693,8 +904,8 @@ caption {
 }
 .epo-card1-bg {
   width: 100%;
-  height: 150px;
-  background-image: url("../../../resources/images/pattern/way_bg01.jpg");
+  height: 100%;
+  background-image: url("/project1-clio/resources/images/pattern/way_bg01.jpg");
   background-size: cover;
   background-position: -100px 0;
   border-radius: 20px;
@@ -702,17 +913,22 @@ caption {
 }
 .epo-card .epo-card2-bg {
   width: 100%;
-  height: 150px;
-  background-image: url("../../../resources/images/pattern/way_bg02.jpg");
+  height: 100%;
+  background-image: url("/project1-clio/resources/images/pattern/way_bg02.jpg");
   background-position: -150px 0;
   background-size: cover;
   border-radius: 20px;
   filter: brightness(50%);
 }
+@media (min-width: 600px) {
+  .epo-card .epo-card2-bg {
+    background-position: -450px 0;
+  }
+}
 .epo-card .epo-card3-bg {
   width: 100%;
-  height: 150px;
-  background-image: url("../../../resources/images/pattern/way_bg03.jpg");
+  height: 100%;
+  background-image: url("/project1-clio/resources/images/pattern/way_bg03.jpg");
   background-size: cover;
   background-position: -100px 0;
   border-radius: 20px;
@@ -721,10 +937,18 @@ caption {
 
 .learn-more {
   position: absolute;
+  display: flex;
+  align-items: center;
   top: 31%;
-  right: 0px;
+  right: 15px;
   font-size: 1.5rem;
   font-weight: 500;
+}
+@media (min-width: 600px) {
+  .learn-more {
+    top: -5%;
+    right: 0;
+  }
 }
 .learn-more::before {
   content: "";
@@ -746,6 +970,11 @@ caption {
   font-size: 1.2rem;
   font-weight: 900;
 }
+@media (min-width: 600px) {
+  .learn-more::after {
+    font-size: 2rem;
+  }
+}
 
 .brands {
   position: relative;
@@ -753,7 +982,15 @@ caption {
   width: 100%;
 }
 .brands > .learn-more {
-  top: 15%;
+  top: 12.5%;
+}
+@media (min-width: 600px) {
+  .brands {
+    margin-top: 100px;
+  }
+}
+.brands .content {
+  padding: 0 15px;
 }
 
 .brands-card {
@@ -764,10 +1001,22 @@ caption {
   height: 336px;
   margin-top: 65px;
   margin-bottom: 140px;
-  overflow: scroll;
+  overflow: visible;
 }
-.brands-card::-webkit-scrollbar {
-  display: none;
+.brands-card .brandswiper {
+  padding: 0 13px;
+}
+.brands-card .brandswiper .swiper-wrapper {
+  width: 100%;
+}
+.brands-card .brandswiper .swiper-wrapper .swiper-slide {
+  width: 300px;
+}
+@media (min-width: 600px) {
+  .brands-card {
+    margin-top: 50px;
+    margin-bottom: 250px;
+  }
 }
 
 .brands-incard {
@@ -783,42 +1032,42 @@ caption {
 }
 
 .clio {
-  background-image: url("../../../resources/images/pattern/brand_cont01_img06.jpg");
+  background-image: url("/project1-clio/resources/images/pattern/brand_cont01_img06.jpg");
   background-size: cover;
 }
 
 .peripera {
-  background-image: url("../../../resources/images/pattern/brand_cont02_img10.jpg");
+  background-image: url("/project1-clio/resources/images/pattern/brand_cont02_img10.jpg");
   background-size: cover;
 }
 
 .goodal {
-  background-image: url("../../../resources/images/pattern/brand_cont03_img06.jpg");
+  background-image: url("/project1-clio/resources/images/pattern/brand_cont03_img06.jpg");
   background-size: cover;
 }
 
 .dermatory {
-  background-image: url("../../../resources/images/pattern/brand_cont04_img02.jpg");
+  background-image: url("/project1-clio/resources/images/pattern/brand_cont04_img02.jpg");
   background-size: cover;
 }
 
 .healingbird {
-  background-image: url("../../../resources/images/pattern/brand_cont05_img04.jpg");
+  background-image: url("/project1-clio/resources/images/pattern/brand_cont05_img04.jpg");
   background-size: cover;
 }
 
 .ablack {
-  background-image: url("../../../resources/images/pattern/brand_cont07_img02.jpg");
+  background-image: url("/project1-clio/resources/images/pattern/brand_cont07_img02.jpg");
   background-size: cover;
 }
 
 .healingbird {
-  background-image: url("../../../resources/images/pattern/brand_cont05_img04.jpg");
+  background-image: url("/project1-clio/resources/images/pattern/brand_cont05_img04.jpg");
   background-size: cover;
 }
 
 .twinklepop {
-  background-image: url("../../../resources/images/pattern/brand_cont08_img02.jpg");
+  background-image: url("/project1-clio/resources/images/pattern/brand_cont08_img02.jpg");
   background-size: cover;
 }
 
@@ -826,6 +1075,7 @@ caption {
   background-image: linear-gradient(#FFA32C, #644190);
   z-index: 1;
   transform: translateY(-50px);
+  padding: 40px 15px;
 }
 #card2 .brandnews {
   position: relative;
@@ -858,7 +1108,7 @@ caption {
 }
 #card2 .brandnews-card .brandnews-item1-img {
   height: 171px;
-  background-image: url("../../../resources/images/pattern/new1.png");
+  background-image: url("/project1-clio/resources/images/pattern/new1.png");
   background-size: cover;
   background-position: 0 -100%;
   border-top-left-radius: 20px;
@@ -866,7 +1116,7 @@ caption {
 }
 #card2 .brandnews-card .brandnews-item2-img {
   height: 171px;
-  background-image: url("../../../resources/images/pattern/logo_dermatory.png");
+  background-image: url("/project1-clio/resources/images/pattern/logo_dermatory.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -875,7 +1125,7 @@ caption {
 }
 #card2 .brandnews-card .brandnews-item3-img {
   height: 171px;
-  background-image: url("../../../resources/images/pattern/new2.png");
+  background-image: url("/project1-clio/resources/images/pattern/new2.png");
   background-size: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -906,14 +1156,14 @@ caption {
 #card2 .sns-card .sns-instagram-card1 {
   width: 172.5px;
   height: 175.5px;
-  background-image: url("../../../resources/images/pattern/insta_1.jpg");
+  background-image: url("/project1-clio/resources/images/pattern/insta_1.jpg");
   background-size: cover;
   border-radius: 20px;
 }
 #card2 .sns-card .sns-instagram-card2 {
   width: 172.5px;
   height: 175.5px;
-  background-image: url("../../../resources/images/pattern/insta_2.jpg");
+  background-image: url("/project1-clio/resources/images/pattern/insta_2.jpg");
   background-size: cover;
   border-radius: 20px;
 }
@@ -923,6 +1173,7 @@ caption {
   color: #1d1d1d;
   transform: translateY(-100px);
   z-index: 1;
+  padding: 40px 15px;
 }
 #card3 .comment {
   position: relative;
@@ -942,7 +1193,7 @@ caption {
 #card3 .comment-card .comment-item .img1 {
   width: 100%;
   height: 250px;
-  background-image: url("../../../resources/images/pattern/seling1.gif");
+  background-image: url("/project1-clio/resources/images/pattern/seling1.gif");
   background-size: cover;
   background-position: 50%;
   border-radius: 20px;
@@ -950,7 +1201,7 @@ caption {
 #card3 .comment-card .comment-item .img2 {
   width: 100%;
   height: 250px;
-  background-image: url("../../../resources/images/pattern/seling2.gif");
+  background-image: url("/project1-clio/resources/images/pattern/seling2.gif");
   background-size: cover;
   background-position: 50%;
   border-radius: 20px;
@@ -958,7 +1209,7 @@ caption {
 #card3 .comment-card .comment-item .img3 {
   width: 100%;
   height: 250px;
-  background-image: url("../../../resources/images/pattern/seling3.gif");
+  background-image: url("/project1-clio/resources/images/pattern/seling3.gif");
   background-size: cover;
   background-position: 50%;
   border-radius: 20px;
@@ -966,7 +1217,7 @@ caption {
 #card3 .comment-card .comment-item .img4 {
   width: 100%;
   height: 250px;
-  background-image: url("../../../resources/images/pattern/seling4.gif");
+  background-image: url("/project1-clio/resources/images/pattern/seling4.gif");
   background-size: cover;
   background-position: 50%;
   border-radius: 20px;
@@ -1133,7 +1384,7 @@ caption {
 #footer .footer-top .inner .sns .tiktok {
   width: 19px;
   height: 17px;
-  background-image: url("../../../../resources/images/pattern/tiktok.png");
+  background-image: url("/project1-clio/../resources/images/pattern/tiktok.png");
   background-size: contain;
   background-position-y: -1px;
   background-repeat: no-repeat;
@@ -1169,7 +1420,7 @@ caption {
 #footer .footer-bottom .logo {
   width: 160px;
   height: 14px;
-  background-image: url("../../../resources/images/pattern/head_logo.png");
+  background-image: url("/project1-clio/resources/images/pattern/head_logo.png");
   background-size: cover;
 }
 
