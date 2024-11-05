@@ -1578,7 +1578,7 @@
         .tiktok{
           width: 19px;
           height: 17px;
-          background-image: url('/02-project1/resources/images/pattern/tiktok.png');
+          background-image: url('/02-project1/../resources/images/pattern/tiktok.png');
           background-size: contain;
           background-position-y: -1px;
           background-repeat: no-repeat;
@@ -1618,15 +1618,15 @@
     justify-content: center;
     text-align: center;
     gap: 14px;
-    padding: 30px 55px;
+    padding: 30px 55px 0 55px;
     @include mobileMore{
       text-align: left;
       flex-direction: row;
-      padding: 35px 30px;
+      padding: 35px 30px 0 30px;
       justify-content: space-between;
     }
     @include tabletMore{
-      padding: 50px 160px;
+      padding: 50px 160px 0 160px;
     }
     .footer-bottom-left{
       display: flex;
@@ -1953,6 +1953,7 @@
 
 #brands{
   color: $black;
+  margin-bottom: 60px;
   .inner{
     width: 100%;
     .inner-top{
@@ -1960,6 +1961,9 @@
       font-size: 4rem;
       font-weight: 700;
       text-align: center;
+      @include mobileMore{
+        padding-top: 130px;
+      }
       .border{
         width: 40px;
         height: 1px;
@@ -1980,14 +1984,34 @@
       flex-direction: column;
       padding: 0 15px;
       gap: 45px;
+      @include mobileMore{
+        padding: 0 30px;
+        gap: 30px;
+      }
+      @include tabletMore{
+        padding: 0 160px;
+      }
       .brands-list-item{
         position: relative;
         display: flex;
         flex-direction: column;
         gap: 30px;
+        @include mobileMore{
+          flex-direction: row;
+          gap: 35px;
+        }
+        @include tabletMore{
+          gap: 0;
+        }
         .brands-list-img{
           height: 340px;
           border-radius: 30px;
+          @include mobileMore{
+            width: 350px;
+          }
+          @include tabletMore{
+            width: 50%;
+          }
         }
         .clio-img{
           background-image: url('/02-project1/resources/images/pattern/brand_cont01_img06.jpg');
@@ -2014,14 +2038,33 @@
           background-size: cover;
           background-position:50% 
         }
+        .ablack-img{
+          background-image: url('/02-project1/resources/images/pattern/brand_cont07_img02.jpg');
+          background-size: cover;
+          background-position:50% 
+        }
+        .twinklepop-img{
+          background-image: url('/02-project1/resources/images/pattern/brand_cont08_img02.jpg');
+          background-size: cover;
+          background-position:50% 
+        }
         .brands-list-txt{
           width: 90%;
           font-size: 1.3rem;
           color: $gray-70;
           line-height: 1.5;
+          @include mobileMore{
+            width: 50%;
+          }
+          @include tabletMore{
+            padding: 45px 55px 55px 55px;
+          }
           &-title{
             height: 50px;
             margin-bottom: 13px;
+            @include tabletMore{
+              height: 80px;
+            }
           }
           .clio-logo{
             background-image: url('/02-project1/resources/images/pattern/logo_clio.png');
@@ -2048,14 +2091,107 @@
             background-size: contain;
             background-repeat: no-repeat;
           }
+          .ablack-logo{
+            background-image: url('/02-project1/resources/images/pattern/logo_ablack.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+          .twinklepop-logo{
+            background-image: url('/02-project1/resources/images/pattern/logo_twinklepop.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
         }
         .learn-more{
-          position: relative;
+          position: relative; 
+          margin-top: 20px;
           margin-left: 32px;
+          @include mobileMore{
+            top: 0;
+            left: 0;
+          }
         }
       }
     }
   }
+} 
+
+//news
+
+#news{
+  .b-lnb{
+    color: $white;
+  }
+  
+  .inner{
+    &-top{
+      height: 320px;
+      background-image: linear-gradient(rgba($color: $black, $alpha:0.3 ), rgba($color: $black, $alpha:0.3 )), url('/02-project1/resources/images/pattern/brand_bg.jpg');
+      background-position: 50%;
+      background-size: cover;
+      .title{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-top: 180px;
+        color: $white;
+        text-align: center;
+        font-size: 3.7rem;
+        font-weight: 600;
+        .sub-title{
+          font-size: 1.9rem;
+          opacity: 0.7;
+        }
+      }
+    }
+    .news-content{
+      padding: 0 15px;
+      margin-top: 50px;
+      .news-category{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 10px;
+        background-color: $gray-10;
+        border-radius: 5px;
+      }
+      .news-category--wrap{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        .category{
+          width: 110px;
+          height: 45px;
+          font-weight: 400;
+          font-size: 1.6rem;
+          color: $gray-60;
+        }
+        .active{
+          background-color: $white;
+          color: $gray-90;
+          font-weight: 600;
+          border-radius: 5px;
+          &::after{
+            content: "\f00c";
+            margin-left: 8px;
+            font-family: 'Line Awesome Free';
+            font-weight: 900;
+          }
+        }
+      }
+    }
+    .news-search{
+      &--category{
+        button{
+          display: none;
+        }
+        &:first-child{
+          display: block;
+        }
+      }
+    }
+  }
+  
 }
 
 //animation
