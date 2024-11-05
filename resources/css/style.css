@@ -407,7 +407,7 @@ caption {
   width: 120px;
   height: 11px;
   transform-origin: 0 50%;
-  background: url("../../../resources/images/pattern/head_logo.png");
+  background: url("/02-project1/resources/images/pattern/head_logo.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -1158,7 +1158,7 @@ caption {
 .epo-card1-bg {
   width: 100%;
   height: 100%;
-  background-image: url("../../../resources/images/pattern/way_bg01.jpg");
+  background-image: url("/02-project1/resources/images/pattern/way_bg01.jpg");
   background-size: cover;
   background-position: -100px 0;
   border-radius: 20px;
@@ -1167,7 +1167,7 @@ caption {
 .epo-card .epo-card2-bg {
   width: 100%;
   height: 100%;
-  background-image: url("../../../resources/images/pattern/way_bg02.jpg");
+  background-image: url("/02-project1/resources/images/pattern/way_bg02.jpg");
   background-position: -150px 0;
   background-size: cover;
   border-radius: 20px;
@@ -1186,7 +1186,7 @@ caption {
 .epo-card .epo-card3-bg {
   width: 100%;
   height: 100%;
-  background-image: url("../../../resources/images/pattern/way_bg03.jpg");
+  background-image: url("/02-project1/resources/images/pattern/way_bg03.jpg");
   background-size: cover;
   background-position: -100px 0;
   border-radius: 20px;
@@ -1371,42 +1371,42 @@ caption {
 }
 
 .clio {
-  background-image: url("../../../resources/images/pattern/brand_cont01_img06.jpg");
+  background-image: url("/02-project1/resources/images/pattern/brand_cont01_img06.jpg");
   background-size: cover;
 }
 
 .peripera {
-  background-image: url("../../../resources/images/pattern/brand_cont02_img10.jpg");
+  background-image: url("/02-project1/resources/images/pattern/brand_cont02_img10.jpg");
   background-size: cover;
 }
 
 .goodal {
-  background-image: url("../../../resources/images/pattern/brand_cont03_img06.jpg");
+  background-image: url("/02-project1/resources/images/pattern/brand_cont03_img06.jpg");
   background-size: cover;
 }
 
 .dermatory {
-  background-image: url("../../../resources/images/pattern/brand_cont04_img02.jpg");
+  background-image: url("/02-project1/resources/images/pattern/brand_cont04_img02.jpg");
   background-size: cover;
 }
 
 .healingbird {
-  background-image: url("../../../resources/images/pattern/brand_cont05_img04.jpg");
+  background-image: url("/02-project1/resources/images/pattern/brand_cont05_img04.jpg");
   background-size: cover;
 }
 
 .ablack {
-  background-image: url("../../../resources/images/pattern/brand_cont07_img02.jpg");
+  background-image: url("/02-project1/resources/images/pattern/brand_cont07_img02.jpg");
   background-size: cover;
 }
 
 .healingbird {
-  background-image: url("../../../resources/images/pattern/brand_cont05_img04.jpg");
+  background-image: url("/02-project1/resources/images/pattern/brand_cont05_img04.jpg");
   background-size: cover;
 }
 
 .twinklepop {
-  background-image: url("../../../resources/images/pattern/brand_cont08_img02.jpg");
+  background-image: url("/02-project1/resources/images/pattern/brand_cont08_img02.jpg");
   background-size: cover;
 }
 
@@ -1528,7 +1528,7 @@ caption {
 }
 #card2 .brandnews-card .brandnews-item1-img {
   height: 171px;
-  background-image: url("../../../resources/images/pattern/new1.png");
+  background-image: url("/02-project1/resources/images/pattern/new1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 50%;
@@ -1547,7 +1547,7 @@ caption {
 }
 #card2 .brandnews-card .brandnews-item2-img {
   height: 171px;
-  background-image: url("../../../resources/images/pattern/logo_dermatory.png");
+  background-image: url("/02-project1/resources/images/pattern/logo_dermatory.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -1567,7 +1567,7 @@ caption {
 }
 #card2 .brandnews-card .brandnews-item3-img {
   height: 171px;
-  background-image: url("../../../resources/images/pattern/new2.png");
+  background-image: url("/02-project1/resources/images/pattern/new2.png");
   background-size: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -1678,7 +1678,7 @@ caption {
 #card2 .sns-card .sns-instagram-card1 {
   width: 172.5px;
   height: 175.5px;
-  background-image: url("../../../resources/images/pattern/insta_1.jpg");
+  background-image: url("/02-project1/resources/images/pattern/insta_1.jpg");
   background-size: cover;
   border-radius: 20px;
 }
@@ -1696,7 +1696,7 @@ caption {
 #card2 .sns-card .sns-instagram-card2 {
   width: 172.5px;
   height: 175.5px;
-  background-image: url("../../../resources/images/pattern/insta_2.jpg");
+  background-image: url("/02-project1/resources/images/pattern/insta_2.jpg");
   background-size: cover;
   border-radius: 20px;
 }
@@ -1785,7 +1785,7 @@ caption {
 #card3 .comment-card .comment-item .img1 {
   width: 100%;
   height: 250px;
-  background-image: url("../../../resources/images/pattern/seling1.gif");
+  background-image: url("/02-project1/resources/images/pattern/seling1.gif");
   background-size: cover;
   background-position: 50%;
   border-radius: 20px;
@@ -1798,7 +1798,7 @@ caption {
 #card3 .comment-card .comment-item .img2 {
   width: 100%;
   height: 250px;
-  background-image: url("../../../resources/images/pattern/seling2.gif");
+  background-image: url("/02-project1/resources/images/pattern/seling2.gif");
   background-size: cover;
   background-position: 50%;
   border-radius: 20px;
@@ -1811,7 +1811,7 @@ caption {
 #card3 .comment-card .comment-item .img3 {
   width: 100%;
   height: 250px;
-  background-image: url("../../../resources/images/pattern/seling3.gif");
+  background-image: url("/02-project1/resources/images/pattern/seling3.gif");
   background-size: cover;
   background-position: 50%;
   border-radius: 20px;
@@ -1824,7 +1824,7 @@ caption {
 #card3 .comment-card .comment-item .img4 {
   width: 100%;
   height: 250px;
-  background-image: url("../../../resources/images/pattern/seling4.gif");
+  background-image: url("/02-project1/resources/images/pattern/seling4.gif");
   background-size: cover;
   background-position: 50%;
   border-radius: 20px;
@@ -2238,7 +2238,7 @@ caption {
 #footer .footer-top .inner .sns .tiktok {
   width: 19px;
   height: 17px;
-  background-image: url("../../../../resources/images/pattern/tiktok.png");
+  background-image: url("/02-project1/../resources/images/pattern/tiktok.png");
   background-size: contain;
   background-position-y: -1px;
   background-repeat: no-repeat;
@@ -2283,19 +2283,19 @@ caption {
   justify-content: center;
   text-align: center;
   gap: 14px;
-  padding: 30px 55px;
+  padding: 30px 55px 0 55px;
 }
 @media (min-width: 600px) {
   #footer .footer-bottom {
     text-align: left;
     flex-direction: row;
-    padding: 35px 30px;
+    padding: 35px 30px 0 30px;
     justify-content: space-between;
   }
 }
 @media (min-width: 1024px) {
   #footer .footer-bottom {
-    padding: 50px 160px;
+    padding: 50px 160px 0 160px;
   }
 }
 #footer .footer-bottom .footer-bottom-left {
@@ -2331,7 +2331,7 @@ caption {
 #footer .footer-bottom .logo {
   width: 160px;
   height: 14px;
-  background-image: url("../../../resources/images/pattern/head_logo.png");
+  background-image: url("/02-project1/resources/images/pattern/head_logo.png");
   background-size: cover;
 }
 @media (min-width: 1024px) {
@@ -2388,7 +2388,7 @@ caption {
 }
 
 #vision {
-  background-image: linear-gradient(rgba(0, 22, 47, 0.7), rgba(0, 22, 47, 0.7)), url("../../../resources/images/pattern/ceo_bg.jpg");
+  background-image: linear-gradient(rgba(0, 22, 47, 0.7), rgba(0, 22, 47, 0.7)), url("/02-project1/resources/images/pattern/ceo_bg.jpg");
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2531,7 +2531,7 @@ caption {
   }
 }
 #vision .inner .mission-list-item .challenge-img {
-  background-image: url("../../../resources/images/pattern/challenge-icon.png");
+  background-image: url("/02-project1/resources/images/pattern/challenge-icon.png");
   width: 80px;
   height: 80px;
   background-size: cover;
@@ -2549,7 +2549,7 @@ caption {
   }
 }
 #vision .inner .mission-list-item .connection-img {
-  background-image: url("../../../resources/images/pattern/connection-icon.png");
+  background-image: url("/02-project1/resources/images/pattern/connection-icon.png");
   width: 80px;
   height: 80px;
   background-size: cover;
@@ -2567,7 +2567,7 @@ caption {
   }
 }
 #vision .inner .mission-list-item .enjoyment-img {
-  background-image: url("../../../resources/images/pattern/enjoyment-icon.png");
+  background-image: url("/02-project1/resources/images/pattern/enjoyment-icon.png");
   width: 80px;
   height: 80px;
   background-size: cover;
@@ -2687,6 +2687,7 @@ caption {
 
 #brands {
   color: #000;
+  margin-bottom: 60px;
 }
 #brands .inner {
   width: 100%;
@@ -2696,6 +2697,11 @@ caption {
   font-size: 4rem;
   font-weight: 700;
   text-align: center;
+}
+@media (min-width: 600px) {
+  #brands .inner .inner-top {
+    padding-top: 130px;
+  }
 }
 #brands .inner .inner-top .border {
   width: 40px;
@@ -2717,38 +2723,80 @@ caption {
   padding: 0 15px;
   gap: 45px;
 }
+@media (min-width: 600px) {
+  #brands .inner .brands-list {
+    padding: 0 30px;
+    gap: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  #brands .inner .brands-list {
+    padding: 0 160px;
+  }
+}
 #brands .inner .brands-list .brands-list-item {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
+@media (min-width: 600px) {
+  #brands .inner .brands-list .brands-list-item {
+    flex-direction: row;
+    gap: 35px;
+  }
+}
+@media (min-width: 1024px) {
+  #brands .inner .brands-list .brands-list-item {
+    gap: 0;
+  }
+}
 #brands .inner .brands-list .brands-list-item .brands-list-img {
   height: 340px;
   border-radius: 30px;
 }
+@media (min-width: 600px) {
+  #brands .inner .brands-list .brands-list-item .brands-list-img {
+    width: 350px;
+  }
+}
+@media (min-width: 1024px) {
+  #brands .inner .brands-list .brands-list-item .brands-list-img {
+    width: 50%;
+  }
+}
 #brands .inner .brands-list .brands-list-item .clio-img {
-  background-image: url("../../../resources/images/pattern/brand_cont01_img06.jpg");
+  background-image: url("/02-project1/resources/images/pattern/brand_cont01_img06.jpg");
   background-size: cover;
   background-position: 50%;
 }
 #brands .inner .brands-list .brands-list-item .peripera-img {
-  background-image: url("../../../resources/images/pattern/brand_cont02_img10.jpg");
+  background-image: url("/02-project1/resources/images/pattern/brand_cont02_img10.jpg");
   background-size: cover;
   background-position: 50%;
 }
 #brands .inner .brands-list .brands-list-item .goodal-img {
-  background-image: url("../../../resources/images/pattern/brand_cont03_img06.jpg");
+  background-image: url("/02-project1/resources/images/pattern/brand_cont03_img06.jpg");
   background-size: cover;
   background-position: 50%;
 }
 #brands .inner .brands-list .brands-list-item .dermatory-img {
-  background-image: url("../../../resources/images/pattern/brand_cont04_img02.jpg");
+  background-image: url("/02-project1/resources/images/pattern/brand_cont04_img02.jpg");
   background-size: cover;
   background-position: 50%;
 }
 #brands .inner .brands-list .brands-list-item .healingbird-img {
-  background-image: url("../../../resources/images/pattern/brand_cont05_img04.jpg");
+  background-image: url("/02-project1/resources/images/pattern/brand_cont05_img04.jpg");
+  background-size: cover;
+  background-position: 50%;
+}
+#brands .inner .brands-list .brands-list-item .ablack-img {
+  background-image: url("/02-project1/resources/images/pattern/brand_cont07_img02.jpg");
+  background-size: cover;
+  background-position: 50%;
+}
+#brands .inner .brands-list .brands-list-item .twinklepop-img {
+  background-image: url("/02-project1/resources/images/pattern/brand_cont08_img02.jpg");
   background-size: cover;
   background-position: 50%;
 }
@@ -2758,38 +2806,136 @@ caption {
   color: #555555;
   line-height: 1.5;
 }
+@media (min-width: 600px) {
+  #brands .inner .brands-list .brands-list-item .brands-list-txt {
+    width: 50%;
+  }
+}
+@media (min-width: 1024px) {
+  #brands .inner .brands-list .brands-list-item .brands-list-txt {
+    padding: 45px 55px 55px 55px;
+  }
+}
 #brands .inner .brands-list .brands-list-item .brands-list-txt-title {
   height: 50px;
   margin-bottom: 13px;
 }
+@media (min-width: 1024px) {
+  #brands .inner .brands-list .brands-list-item .brands-list-txt-title {
+    height: 80px;
+  }
+}
 #brands .inner .brands-list .brands-list-item .brands-list-txt .clio-logo {
-  background-image: url("../../../resources/images/pattern/logo_clio.png");
+  background-image: url("/02-project1/resources/images/pattern/logo_clio.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #brands .inner .brands-list .brands-list-item .brands-list-txt .peripera-logo {
-  background-image: url("../../../resources/images/pattern/logo_peripera.png");
+  background-image: url("/02-project1/resources/images/pattern/logo_peripera.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #brands .inner .brands-list .brands-list-item .brands-list-txt .goodal-logo {
-  background-image: url("../../../resources/images/pattern/logo_goodal.png");
+  background-image: url("/02-project1/resources/images/pattern/logo_goodal.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #brands .inner .brands-list .brands-list-item .brands-list-txt .dermatory-logo {
-  background-image: url("../../../resources/images/pattern/logo_dermatory.png");
+  background-image: url("/02-project1/resources/images/pattern/logo_dermatory.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #brands .inner .brands-list .brands-list-item .brands-list-txt .healingbird-logo {
-  background-image: url("../../../resources/images/pattern/logo_healing_bird.png");
+  background-image: url("/02-project1/resources/images/pattern/logo_healing_bird.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#brands .inner .brands-list .brands-list-item .brands-list-txt .ablack-logo {
+  background-image: url("/02-project1/resources/images/pattern/logo_ablack.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#brands .inner .brands-list .brands-list-item .brands-list-txt .twinklepop-logo {
+  background-image: url("/02-project1/resources/images/pattern/logo_twinklepop.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #brands .inner .brands-list .brands-list-item .learn-more {
   position: relative;
+  margin-top: 20px;
   margin-left: 32px;
+}
+@media (min-width: 600px) {
+  #brands .inner .brands-list .brands-list-item .learn-more {
+    top: 0;
+    left: 0;
+  }
+}
+
+#news .b-lnb {
+  color: #fff;
+}
+#news .inner-top {
+  height: 320px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/02-project1/resources/images/pattern/brand_bg.jpg");
+  background-position: 50%;
+  background-size: cover;
+}
+#news .inner-top .title {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 180px;
+  color: #fff;
+  text-align: center;
+  font-size: 3.7rem;
+  font-weight: 600;
+}
+#news .inner-top .title .sub-title {
+  font-size: 1.9rem;
+  opacity: 0.7;
+}
+#news .inner .news-content {
+  padding: 0 15px;
+  margin-top: 50px;
+}
+#news .inner .news-content .news-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+#news .inner .news-content .news-category--wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+#news .inner .news-content .news-category--wrap .category {
+  width: 110px;
+  height: 45px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #717171;
+}
+#news .inner .news-content .news-category--wrap .active {
+  background-color: #fff;
+  color: #1d1d1d;
+  font-weight: 600;
+  border-radius: 5px;
+}
+#news .inner .news-content .news-category--wrap .active::after {
+  content: "\f00c";
+  margin-left: 8px;
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+}
+#news .inner .news-search--category button {
+  display: none;
+}
+#news .inner .news-search--category:first-child {
+  display: block;
 }
 
 @keyframes scroll {
